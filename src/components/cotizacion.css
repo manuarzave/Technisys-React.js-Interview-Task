@@ -1,0 +1,39 @@
+.container {
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 2% 5%;
+    font-size: 24px;
+    width: 35%;
+}
+
+.title {
+    margin-bottom: 5%;
+}
+
+.selectors {
+    text-align: justify;
+    display: block;
+    margin: auto;
+}
+
+.selectors p {
+    padding-top: 5%;;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 100%;
+}
+
+.rdt_Pagination {
+    display: none !important;
+}
+
+.button {
+    background-color: orangered;
+    border: 1px solid orangered;
+    width: 80% !important;
+    margin-top: 5%;
+}
