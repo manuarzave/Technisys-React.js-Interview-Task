@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desafio de código para candidatos Frontend
 
-## Available Scripts
+El candidato deberá desarrollar una aplicación utilizando: HTML, CSS (puede ser sass, css-in-js) y ReactJS, la misma debe obtener las cotizaciones de monedas para una fecha dada y desplegarla en una grilla respetando el diseño a continuación..
 
-In the project directory, you can run:
+https://xd.adobe.com/view/16086c3c-a48d-418e-ba09-67edc32e35c8-435b/
+Objetivo
 
-### `npm start`
+Como usuario deseo consultar la cotización de monedas para una fecha anterior, con respecto a una de referencia. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Precondiciones
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Tiene que haber cargado las cotizaciones del dia para la moneda base por defecto (USD) desde https://exchangeratesapi.io/
+ 
+Criterios de Aceptación
 
-### `npm test`
+Debe poder seleccionar una moneda de referencia mediante un componente selector.
+Debe poder seleccionar una fecha no posterior al día en curso, es deseable el uso de un componente datepicker.
+Debe poder buscar las cotizaciones según los filtros mencionados en los puntos anteriores.
+Debe listar las cotizaciones para la moneda de referencia según fecha dada, hasta un máximo de 4 por página, es deseable que las monedas listadas en la primera página sean CAD, GBP, USD, EUR.
+Es deseable que cada moneda tenga a su lado la bandera del país al que pertenece, la fuente de las mismas queda a criterio del desarrollador.
+Debe agregar a la lista las siguientes 4 cotizaciones al hacer click en el boton "ver más cotizaciones", 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Entregable: 
 
-### `npm run build`
+Repositorio Github (Publico o Privado)
+Terminada la tarea debe informar por email a la persona de contacto en Technisys.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Notas:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+El desarrollador puede incluir las librerías que desee para poder ejecutar la tarea. 
+Se espera que entregue todo lo que esté al alcance de sus posibilidades en base a su experiencia, valoraremos tanto el trabajo que se haga a nivel visual como a nivel de código.
+Cualquier consulta sobre la letra o alcance del desafío deberá ser enviado por email a la persona de contacto en Technisys.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
